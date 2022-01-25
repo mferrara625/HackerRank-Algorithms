@@ -62,6 +62,12 @@ public class Main {
 //        SELECT id, name FROM customers WHERE country = 'USA' AND credits >= 100000 ORDER BY id;
 
         //         CHALLENGE 9
+//        SUPERHEROES
+//        SELECT name FROM superhero WHERE LENGTH(NAME) < 7 ORDER BY id;
+
+        //         CHALLENGE 10
+//        ORDER MANAGEMENT SYSTEM
+//        SELECT id, name FROM customer ORDER BY name, desc, id;
 
 
 
