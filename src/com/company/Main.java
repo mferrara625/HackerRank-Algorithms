@@ -43,8 +43,8 @@ public class Main {
 //        String[] related = {"1100", "1110", "0110", "0001"};
 
         ConnectedGroups cg = new ConnectedGroups();
-//        System.out.println(cg.connectedGroups(5, new String[]{"10000", "01000", "00100", "00010", "00001"}));
-//        System.out.println(cg.connectedGroups(4, new String[]{"1100", "1110", "0110", "0001"}));
+        System.out.println(cg.connectedGroups(5, new String[]{"10000", "01000", "00100", "00010", "00001"}));
+        System.out.println(cg.connectedGroups(4, new String[]{"1100", "1110", "0110", "0001"}));
 
         System.out.println(cg.connectedGroups(4, new String[]{"1100", "1100", "0010", "0001"}));
 
