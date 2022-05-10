@@ -1,7 +1,7 @@
 package com.company;
 
 public class BinaryTreeSearch {
-    class Node<T> {
+    static class Node<T> {
         Node(T x) {
             value = x;
         }

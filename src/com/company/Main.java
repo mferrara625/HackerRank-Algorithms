@@ -1,5 +1,6 @@
 package com.company;
 
+import java.time.LocalDate;
 import java.util.Scanner;
 
 public class Main {
@@ -42,12 +43,12 @@ public class Main {
 //        int n = 4;
 //        String[] related = {"1100", "1110", "0110", "0001"};
 
-        ConnectedGroups cg = new ConnectedGroups();
-        System.out.println(cg.connectedGroups(5, new String[]{"10000", "01000", "00100", "00010", "00001"}));
-
-        System.out.println(cg.connectedGroups(4, new String[]{"1100", "1110", "0110", "0001"}));
-
-        System.out.println(cg.connectedGroups(4, new String[]{"1100", "1100", "0010", "0001"}));
+//        ConnectedGroups cg = new ConnectedGroups();
+//        System.out.println(cg.connectedGroups(5, new String[]{"10000", "01000", "00100", "00010", "00001"}));
+//
+//        System.out.println(cg.connectedGroups(4, new String[]{"1100", "1110", "0110", "0001"}));
+//
+//        System.out.println(cg.connectedGroups(4, new String[]{"1100", "1100", "0010", "0001"}));
 
         //         CHALLENGE 7
 //        WagonR wagonR = new WagonR(70);
@@ -71,7 +72,11 @@ public class Main {
 //        SELECT id, name FROM customer ORDER BY name, desc, id;
 
 
+        Test tester = new Test();
 
+        System.out.println(String.valueOf(tester.test1()).equals("2022-03-20"));
+        System.out.println(tester.test1());
+        System.out.println(LocalDate.ofEpochDay(tester.test1()));
 
     }
 
